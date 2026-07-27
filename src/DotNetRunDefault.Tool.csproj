@@ -7,8 +7,10 @@
     <Version>1.0.0</Version>
     <Authors>Ryan Erdmann</Authors>
     <Description>Runs the DefaultStartup project from a .slnx file.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SolutionPersistence" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" Link="README.md" />
   </ItemGroup>
 </Project>
