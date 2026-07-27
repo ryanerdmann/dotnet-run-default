@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Library.csproj" />
+    <Project Path="src/App.csproj" DefaultStartup="true" />
+  </Folder>
+</Solution>

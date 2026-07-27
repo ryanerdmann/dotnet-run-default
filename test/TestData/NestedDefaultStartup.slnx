@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/Tools/">
+    <Project Path="src/Tools/Runner.csproj" DefaultStartup="true" />
+  </Folder>
+</Solution>
