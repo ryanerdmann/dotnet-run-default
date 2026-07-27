@@ -24,6 +24,7 @@ static async Task<int> RunAsync(string[] args)
             return 1;
         }
 
+        Console.WriteLine($"Running {projectPath}");
         return await ProcessExecutor.RunDotnetAsync(projectPath, dotnetRunArguments);
     }
     catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or System.Xml.XmlException or SolutionException or InvalidOperationException or ArgumentException)

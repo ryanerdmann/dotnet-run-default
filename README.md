@@ -16,7 +16,7 @@ In a repository where you want to use it, create a local tool manifest if needed
 
 ```powershell
 dotnet new tool-manifest
-dotnet tool install --local --add-source <path-to-dotnet-run-default>\src\bin\Release DotNetRunDefault.Tool
+dotnet tool install --local --add-source <path-to-dotnet-run-default>\src\bin\Release dotnet-run-default
 ```
 
 ## Use

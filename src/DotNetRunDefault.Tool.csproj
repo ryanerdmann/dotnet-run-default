@@ -3,7 +3,7 @@
     <OutputType>Exe</OutputType>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>run-default</ToolCommandName>
-    <PackageId>DotNetRunDefault.Tool</PackageId>
+    <PackageId>dotnet-run-default</PackageId>
     <Version>1.0.0</Version>
     <Authors>Ryan Erdmann</Authors>
     <Description>Runs the DefaultStartup project from a .slnx file.</Description>
