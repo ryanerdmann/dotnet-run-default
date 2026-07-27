@@ -8,6 +8,11 @@
     <Authors>Ryan Erdmann</Authors>
     <Description>Runs the DefaultStartup project from a .slnx file.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ryanerdmann/dotnet-run-default</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ryanerdmann/dotnet-run-default</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet;cli;tool;slnx;startup</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SolutionPersistence" />
